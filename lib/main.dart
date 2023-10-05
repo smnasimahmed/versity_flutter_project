@@ -38,20 +38,19 @@ class HomePage extends StatelessWidget {
           color: Colors.blue,
           child: Column(
             children: [
-              SizedBox(
+              Container(
+                alignment: Alignment.center,
                 height: 98.17,
-                child: Container(
-                  color: Colors.white,
-                  child: SizedBox(
-                      child: Center(child: Text("SMUCT Image from network"))),
-                ),
+                color: Colors.white,
+                child: Image.network(
+                    'https://smuct.ac.bd/wp-content/uploads/2020/10/SMUCT-Logo-1-Converted.png'),
               ),
               SizedBox(
                 height: 98.17,
                 child: Container(
                   color: Colors.blue,
                   child: Padding(
-                    padding: EdgeInsets.all(4),
+                    padding: EdgeInsets.only(left: 4, right: 4),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -63,8 +62,13 @@ class HomePage extends StatelessWidget {
                           ),
                         ),
                         CircleAvatar(
-                          backgroundImage: NetworkImage("url.com"),
-                          maxRadius: 45,
+                          backgroundColor: Colors.amber,
+                          maxRadius: 48,
+                          child: CircleAvatar(
+                            backgroundImage: NetworkImage(
+                                'https://avatars.githubusercontent.com/u/111959129?s=400&u=985a630e6d422b9f634dd9348fa1eadaa2da6eef&v=4'),
+                            maxRadius: 45,
+                          ),
                         )
                       ],
                     ),
