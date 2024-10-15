@@ -2,8 +2,9 @@
 
 A copy of ID card of my university.
 
-# ![image](https://github.com/user-attachments/assets/119a5513-a44f-483b-bbb8-83cc43c0a490)
-<img src="https://github.com/user-attachments/assets/119a5513-a44f-483b-bbb8-83cc43c0a490" width="500"/>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/119a5513-a44f-483b-bbb8-83cc43c0a490" width="500"/>
+</p>
 
 ## Getting Started
 
