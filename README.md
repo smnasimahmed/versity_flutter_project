@@ -20,6 +20,7 @@ The main components of the app include:
 * ```HomePage```: Displays the main content of the app, including the student's profile information and a navigation drawer.
 
 ## Bugs to be Fixed
+* Display overrided
 * There may be inconsistencies in displaying the network image if the URL is incorrect.
 * Further validation may be needed for user inputs or data.
 
@@ -31,7 +32,7 @@ The main components of the app include:
 ### Steps
 #### Clone the repository:
 ```
-https://github.com/smnasimahmed/assignment_list.git
+https://github.com/smnasimahmed/versity_flutter_project.git
 ```
 
 #### Install dependencies:
